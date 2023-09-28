@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #f5f2f2;
+    text-decoration: none;
+}
+
+a :hover , .contact-btn {
+    color: #d3624c;
+    text-decoration: none;
+    transition: 1000ms;
+}
+
+.btn-outline-light:hover {
+    background-color: #d3624c;
+    text-decoration: none;
+    transition: 1000ms;
+}
+
+body {
+    background-color: #7bccf5;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+h1, h2 , h3 {
+    font-size: 3em ;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 0.3rem; 
+}
+
+p { 
+    font-size: 1.2em;
+    font-family: 'manthrope'800;
+}
+
+.copyright {
+    color: #4b4a4a;
+    font-size: small;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* HTML resets */
+
+.btn {
+    margin: 1rem;
+}
+
+.btn-primary{
+    background-color: #7bccf5;
+}
+
+.btn-primary:hover {
+    background-color: #0d82bd;
+    transition: 1000ms;
+}
+
+.card {
+    margin: 1rem;
+    text-align: center;
+}
+
+.card-header {
+    color: #d3624c;
+}
+
+.col-image {
+    border-radius: 60%;
+    padding: 2.5rem;
+}
+
+
+#footer {
+    color: #2b2a2a;
+    background-color: #7bccf5;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.Gallery  .row {
+    margin-bottom: 1.5em;
+
+}
+
+.navbar-brand{
+    color: #ffffff;
+    margin-left: 1em;
+}
+
+.navbar-brand:hover {
+    color: #d3624c;
+    transition: 1000ms;
+
+}
+
+.navbar-toggler{
+    margin-right: .75rem;
+
+}
+
+.navbar, .offcanvas {
+    background-color: #7bccf5;
+    color: #dfdede;
+
+}
+
+.pricing-section , p{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.service-item , .pricing-section {
+    color: #cacaca;
+    background-color: #d3624c;
+    padding: 1em;
+    text-align: center;
+}
+
+.service-item p , .pricing-section p  {
+    line-height: 1.75em;
+    text-align: center;
+}
+
+.top-container {
+    color: #d3624c;
+    background-image: url(/PicturePurfect/PP-images/ma-\ reception\ table\ layout\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24em;
+    margin-top: 2em;
+}
+
+.top-row {
+    color: rgb(255, 255, 255);
+    padding-top: 5rem;
+    font-family: 'Dancing Script', cursive; 
+    font-size: 4.5em;
+    padding: rem;
+    width: 100%;
+}   
+
+
+ @media screen and (min-width:988px) {
+
+    .card { 
+        padding-bottom: 2em;
+        margin-top: 6em;
+
+    }
+   
+    .card-header { 
+        padding: 2rem;
+    }
+
+    .service-item {
+        padding: 2.5rem;
+        margin-bottom: 2em;
+    }
+
+    .pricing-section , p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .footer-container {
+        display: flex;
+        flex-direction: row;
+    }
+     */
+ }
