@@ -1,17 +1,21 @@
+
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 a {
     color: #f5f2f2;
     text-decoration: none;
+    transition:all 1000ms ease-in-out;
+    
 }
 
 a :hover , .contact-btn {
     color: #d3624c;
     text-decoration: none;
-    transition: 1000ms;
+
 }
 
 .btn-outline-light:hover {
@@ -50,6 +54,7 @@ p {
 
 .btn {
     margin: 1rem;
+    transition: all 1000ms ease-in-out;
 }
 
 .btn-primary{
@@ -58,7 +63,6 @@ p {
 
 .btn-primary:hover {
     background-color: #0d82bd;
-    transition: 1000ms;
 }
 
 .card {
@@ -91,13 +95,12 @@ p {
 
 .navbar-brand{
     color: #ffffff;
-    margin-left: 1em;
+    margin-left: 1em;   
+    transition: all 1500ms ease-in-out;
 }
 
 .navbar-brand:hover {
-    color: #d3624c;
-    transition: 1000ms;
-
+    color: #d3624c ;
 }
 
 .navbar-toggler{
@@ -109,6 +112,16 @@ p {
     background-color: #7bccf5;
     color: #dfdede;
 
+}
+.offcanvas {
+    line-height: 4rem;
+   
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: larger;
+    transition: all 1500ms ease-in-out;
 }
 
 .pricing-section , p{
@@ -129,13 +142,18 @@ p {
     text-align: center;
 }
 
+svg {
+    transition:all 1000ms ease-in-out;
+
+}
 .top-container {
     color: #d3624c;
-    background-image: url(/PicturePurfect/PP-images/ma-\ reception\ table\ layout\ 2.jpg);
+    background-image: url(/public/PP-images/ma-\ reception\ table\ layout\ 2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 24em;
-    margin-top: 2em;
+    height: 25rem;
+    width: 100%;
+    margin-top: 4em;
 }
 
 .top-row {

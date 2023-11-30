@@ -1,6 +1,7 @@
 * {
 margin: 0;
 padding: 0;
+overflow-x: hidden;
 }
 
 a {
@@ -23,7 +24,6 @@ transition: 1000ms;
 body {
 background-color: #7bccf5;
 text-align: center;
-overflow-x: hidden;
 }
 
 h1, h2 , h3 {
@@ -54,7 +54,9 @@ font-size: small;
 }
 
 .container-fluid{
+
 padding: 0;
+
 }
 
 
@@ -93,6 +95,41 @@ margin-right: .75rem;
 .navbar, .offcanvas {
 background-color: #7bccf5;
 color: #dfdede;
+}
+/* Gallery section */
+.title {
+    color:#ffffff;
+    margin: 5rem 0 2rem 0;
+    font: 3rem 'Dancing Script', cursive;
+}
+.pp-gallery {
+    background-color: #d3624c;
+    padding: 1rem ;
+}
+
+.item {
+    border: 5px white ;
+}
+
+
+/* // medium devices (tables,768 and up) // */
+@media (min-width: 768px) { 
+    .item {
+        
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+/* 
+// X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
 
 }
 
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
