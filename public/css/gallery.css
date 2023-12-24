@@ -7,6 +7,7 @@ overflow-x: hidden;
 a {
 color: #f5f2f2;
 text-decoration: none;
+transition:all 1000ms ease-in-out;
 }
 
 a :hover {
@@ -15,6 +16,11 @@ text-decoration: none;
 transition: 1000ms;
 }
 
+
+.btn {
+    margin: 1rem;
+    transition: all 1000ms ease-in-out;
+} 
 .btn-outline-light:hover {
 background-color: #d3624c;
 text-decoration: none;
@@ -79,12 +85,13 @@ text-align: center;
 
 .navbar-brand{
 color: #ffffff;
-margin-left: 1em;
+font-size: x-large;
+margin-left: 1em;   
+transition: all 1500ms ease-in-out;
 }
 
 .navbar-brand:hover {
 color: #d3624c;
-transition: 1000ms;
 }
 
 .navbar-toggler{
@@ -96,6 +103,22 @@ margin-right: .75rem;
 background-color: #7bccf5;
 color: #dfdede;
 }
+
+
+.offcanvas {
+    line-height: 4rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: larger;
+    transition: all 1500ms ease-in-out;
+}
+
+
+svg {
+    transition:all 1000ms ease-in-out;
+}
 /* Gallery section */
 .title {
     color:#ffffff;
@@ -104,32 +127,12 @@ color: #dfdede;
 }
 .pp-gallery {
     background-color: #d3624c;
-    padding: 1rem ;
+    padding: 1rem 1rem 1rem ;
+    
 }
 
 .item {
     border: 5px white ;
+    border-radius: 5%;
 }
 
-
-/* // medium devices (tables,768 and up) // */
-@media (min-width: 768px) { 
-    .item {
-        
-    }
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-}
-/* 
-// X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-
-}
