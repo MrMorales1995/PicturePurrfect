@@ -14,17 +14,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", async (req, res) => {
-  try {
-    const response = await axios.get("https://picturepurrfectwithatwist.com");
+  // const response = await axios.get("https://picturepurrfectwithatwist.com");
     res.sendFile( path , + "index.html");
-
-  } catch (error) {
-    console.error("Failed to make request:", error.message);
-    res.render("index.html", {
-      error: error.message,
-    });
-  }
-});
+//  try {
+  // } catch (error) {
+  //   console.error("Failed to make request:", error.message);
+  //   res.render("index.html", {
+  //     error: error.message,
+  //   });
+  });
 
 // app.get("/PP-Gallery", async (req, res) => {
     
@@ -36,3 +34,4 @@ app.get("/", async (req, res) => {
 app.listen(port, () => {
   log(`Serveris up and running `);
 });
+
