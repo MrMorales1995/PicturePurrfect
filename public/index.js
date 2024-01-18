@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", async (req, res) => {
   // const response = await axios.get("https://picturepurrfectwithatwist.com");
-    res.sendFile( path , + "index.html");
+     res.sendFile( path , + "index.html");
 //  try {D
   // } catch (error) {
   //   console.error("Failed to make request:", error.message);

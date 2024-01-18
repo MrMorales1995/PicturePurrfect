@@ -36,7 +36,7 @@ h1, h2 , h3 {
 }
 
 p { 
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-family: 'manthrope'800;
 }
 
@@ -165,7 +165,7 @@ svg {
 }   
 
 
- @media screen and (min-width:988px) {
+ @media screen and (min-width:800px) {
 
     .card { 
         padding-bottom: 2em;
@@ -193,3 +193,12 @@ svg {
     }
      */
  }
+ @media screen and (min-width: 1000px) {
+    p {
+        font-size: 2rem;
+    }
+
+    .hero-title{
+        font-size: 10rem;
+    }
+ }  
