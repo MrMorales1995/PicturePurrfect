@@ -150,6 +150,7 @@ svg {
     background-image: url("/PicturePurrfect/PP-images/image1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    image-rendering: -webkit-optimize-contrast;
     height: 25rem;
     width: 100%;
     margin-top: 4em;
@@ -195,7 +196,7 @@ svg {
  }
  @media screen and (min-width: 1000px) {
     p {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-title{
