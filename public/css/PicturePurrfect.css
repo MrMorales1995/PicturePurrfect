@@ -147,10 +147,15 @@ svg {
 }
 .top-container {
     color: #d3624c;
-    background-image: url("/PicturePurrfect/PP-images/image1.jpg");
+    background-image: url("/public/PP-images/ma-\ reception\ table\ layout\ 2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;;
     height: 25rem;
     width: 100%;
     margin-top: 4em;
